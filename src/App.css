@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: Reuben;
+  src: url('./fonts/Reuben.otf') format("opentype");
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Name-card {
+  background-color: #18c777;
+  color: white;
+  font-family: Reuben;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: start;
+  justify-content: space-around;
+  border-top: 20px solid white;
+  border-bottom: 10px solid white;
+  padding-left: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.Name {
+  font-size: 150px;
+  display: flex;
+  align-items: flex-end;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Name p{
+  transform: translateY(100%);
+}
+
+.AKA {
+  font-size: 50px;
+}
+
+.AKA p{
+  transform: translateY(-80%);
+}
+.Projects {
+  height: 400px;
+  background-color: #18c777;
 }
