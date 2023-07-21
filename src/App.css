@@ -2,16 +2,20 @@
   font-family: Reuben;
   src: url('./fonts/Reuben.otf') format("opentype");
 }
-.Name-card {
-  background-color: #18c777;
-  color: white;
+
+.App {
+  display: flex;
+  flex-direction: column;
+  background: #18c777;
+  color: black;
   font-family: Reuben;
+}
+.Name-card {
   display: flex;
   flex-direction: column;
   align-items: start;
   justify-content: space-around;
-  border-top: 20px solid white;
-  border-bottom: 10px solid white;
+  border-bottom: 20px solid #297373;
   padding-left: 20px;
 }
 
@@ -35,4 +39,25 @@
 .Projects {
   height: 400px;
   background-color: #18c777;
+}
+.Language-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.Section-title {
+  font-size: 40px;
+  text-align: center;
+}
+
+.Language-logo {
+  width: 200px;
+  height: 200px;
+  object-fit: scale-down;
+}
+
+.Language-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
